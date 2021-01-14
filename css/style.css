@@ -1,0 +1,155 @@
+*,body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.site-logo {
+  font-weight: 700;
+  font-size: 22px;
+  color: #8ea826;
+}
+.site-logo span {
+  font-weight: 700;
+  font-size: 22px;
+  color: #363958;
+}
+.manu-item li a {
+  color: #000;
+  font-weight: 500;
+}
+.heade-slider-bg {
+  background-color: #fffbf0;
+}
+.banner-title {
+  font-size: 56px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fabe4c;
+}
+.banner-title span {
+  color: #363958;
+}
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #363958;
+}
+.banner-title-decription {
+  font-size: 20px;
+}
+.site-btn {
+  padding: 15px 15px;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #90aa29;
+  border: 0;
+  text-transform: uppercase;
+}
+.site-btn:hover {
+  background-color: #90aa29;
+}
+.site-btn:active {
+  background-color: #90aa29;
+}
+.site-btn:focus {
+  background-color: #90aa29;
+}
+.image {
+  border-radius: 25px;
+  width: 380px;
+  height: 400px;
+  background-color: #f1f1f1;
+}
+.image img {
+  width: 70%;
+  height: 350px;
+}
+.priceing h3 {
+  color: #fabe4c;
+  font-weight: 900;
+  font-size: 35px;
+}
+.penguin-product-title,
+.penguin-feature-title {
+  color: #363958;
+  font-weight: 700;
+  font-size: 25px;
+}
+.penguin-card {
+  border: 0;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.feature-card {
+  border: 0;
+  background-color: #fff;
+}
+.feature-img img {
+  width: 100%;
+}
+.newsletter {
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+}
+.newsletter-item {
+  width: 600px;
+}
+.newsletter h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.newsletter p {
+  font-size: 16px;
+  font-weight: 200;
+}
+.from-group {
+  position: absolute;
+}
+.form-control {
+  width: 600px;
+}
+.news-submit-btn {
+  position: relative;
+  top: 0;
+  left: 450px;
+  width: 150px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 10px;
+  background-color: #90aa29;
+  color: #fff;
+}
+.social-icon-item{
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+}
+.site-footer{
+    background-color: #212529;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+@media (max-width: 767px) {
+  .feature-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .feature-icon {
+    text-align: center;
+  }
+  .form-control,.newsletter-item {
+    width: 300px;
+  } 
+  .news-submit-btn {
+    top: 0;
+    left: 150px;
+    width: 150px;
+   
+  }
+}
