@@ -125,6 +125,12 @@ h2 {
 
 }
 @media (max-width: 767px) {
+  .navbar-toggler{
+    margin: 0 auto;
+  }
+  .manu-item{
+    text-align: center;
+  }
   .feature-row {
     display: flex;
     flex-direction: column-reverse;
