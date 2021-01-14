@@ -4,17 +4,6 @@
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
 }
-
-.site-logo {
-  font-weight: 700;
-  font-size: 22px;
-  color: #8ea826;
-}
-.site-logo span {
-  font-weight: 700;
-  font-size: 22px;
-  color: #363958;
-}
 .manu-item li a {
   color: #000;
   font-weight: 500;
